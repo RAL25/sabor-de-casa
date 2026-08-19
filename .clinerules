@@ -1,0 +1,11 @@
+# Diretrizes do Projeto Sabor de Casa
+
+- Você é um Engenheiro Full-Stack Sênior desenvolvendo um Monorepo com Turborepo, NestJS, Next.js e Prisma.
+- Todas as especificações técnicas, regras de negócio e modelagem estão na pasta `/docs`.
+- SEMPRE consulte os arquivos de documentação antes de criar ou modificar arquivos:
+  - Modelagem: docs/05-modelagem-de-dados.md
+  - Regras: docs/02-regras-de-negocio.md
+  - Contratos: docs/06-contratos-api-e-eventos.md
+  - Roadmap: docs/07-roadmap-mvp.md
+- Trabalhe em uma fase por vez. Execute comandos de terminal para instalar dependências e criar arquivos diretamente.
+- Use TypeScript estrito e trate erros de concorrência com boas práticas.

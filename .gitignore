@@ -1,0 +1,24 @@
+# Dependências (cobre a raiz e todas as subpastas apps/ e packages/)
+node_modules/
+**/node_modules/
+
+# Builds e caches
+.turbo/
+.next/
+dist/
+build/
+out/
+
+# Variáveis de ambiente e logs
+.env
+.env*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Sistema operacional / IDE
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
